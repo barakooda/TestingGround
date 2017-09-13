@@ -19,6 +19,9 @@ class TESTINGGROUND_API UChooseWayPoint : public UBTTaskNode
 protected:
 	UPROPERTY(EditAnywhere, Category = "Blackboard")
 	struct FBlackboardKeySelector IndexKey;
+
+	UPROPERTY(EditAnywhere, Category = "Blackboard")
+	struct FBlackboardKeySelector WayPointKey;
 	
 	
 };
